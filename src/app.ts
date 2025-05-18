@@ -9,4 +9,4 @@ const app = express();
 app.use(express.json());
 app.use('/usuarios', usuarioRoutes);
 
-export { app }; // 👈 ¡esto es lo importante!
+export default app;
